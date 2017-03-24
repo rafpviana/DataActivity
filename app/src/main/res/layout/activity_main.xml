@@ -11,6 +11,17 @@
     tools:context="com.example.rafaelpinheiro.dataactivity.MainActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/editTextDataId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type here the data to transfer"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
     <Button
         android:text="Passar dados para a nova Activity"
         android:layout_width="match_parent"
